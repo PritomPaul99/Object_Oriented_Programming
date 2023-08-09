@@ -22,7 +22,12 @@ Key difference between `Structured Programming` and `Object Oriented Programming
 - **Methods:** Methods are functions defined within a class that can perform actions or provide behaviors for the objects created from the class.
 - **Objects:** An object is an instance of a class. It is a concrete realization of the class's blueprint, containing specific values for its attributes.
 
-![A simple example of OOP's building blocks](images\whatis-object_oriented_programming.png)
+<!-- ![A simple example of OOP's building blocks](images\whatis-object_oriented_programming.png) -->
+
+<figure>
+  <p align="center"><img src="images\whatis-object_oriented_programming.png" alt="A simple example of OOP's building blocks" width="512" /></p>
+  <figcaption><p align="center">A simple example of OOP's building blocks </p></figcaption>
+</figure>
 
 For example, here is simple OOP code in `Python`,
 
