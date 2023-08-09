@@ -74,4 +74,3 @@ Hello, my name is Bob and I'm 30 years old.
 Each of the topic have been discussed in this repository. We will mainly use `Python` & `C++` as our programming language. I hope I will also add `Java` & `JavaScript` in the future. Let me know if there are any mistakes, I will appreciate it. Contact me through `pritompaul1920@outlook.com`.
 
 Happy coding! 👍
-# Object_Oriented_Programming
