@@ -2,25 +2,27 @@
 
 using namespace std;
 
-class OOP_Basic_in_C++
-{
-private:
-    /* data */
+class Person {
 public:
-    OOP_Basic_in_C++(/* args */);
-    ~OOP_Basic_in_C++();
+    Person(const string& name, int age) : name(name), age(age) {}
+    
+    void say_hello() {
+        cout << "Hello, my name is " << name << " and I'm " << age << " years old." << endl;
+    }
+
+private:
+    string name;
+    int age;
 };
 
-OOP_Basic_in_C++::OOP_Basic_in_C++(/* args */)
-{
-}
+int main() {
+    // Creating objects of the Person class
+    Person person1("Alice", 25);
+    Person person2("Bob", 30);
 
-OOP_Basic_in_C++::~OOP_Basic_in_C++()
-{
-}
+    // Calling methods on objects
+    person1.say_hello();
+    person2.say_hello();
 
-
-int main()
-{
-
+    return 0;
 }
